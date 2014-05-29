@@ -7,6 +7,7 @@
 //
 
 #import "CTViewController.h"
+#import "CTUserData.m"
 
 @interface CTViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSArray *usersArray = [CTUserData users];
+    NSLog(@"%@", usersArray);
 }
 
 - (void)didReceiveMemoryWarning
