@@ -22,6 +22,11 @@
 		5DB098601934488000114096 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB0983F1934487F00114096 /* UIKit.framework */; };
 		5DB098681934488000114096 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DB098661934488000114096 /* InfoPlist.strings */; };
 		5DB0986A1934488000114096 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB098691934488000114096 /* User_Data_Challenge_SolutionTests.m */; };
+		5DB098751934499700114096 /* CTUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB098741934499700114096 /* CTUserData.m */; };
+		5DB0987719344B9200114096 /* monika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0987619344B9200114096 /* monika.jpg */; };
+		5DB0987919344BCE00114096 /* sophie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0987819344BCE00114096 /* sophie.jpg */; };
+		5DB0987B19344BFA00114096 /* baba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0987A19344BFA00114096 /* baba.jpg */; };
+		5DB0987D19344CD700114096 /* cyrus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DB0987C19344CD700114096 /* cyrus.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,12 @@
 		5DB098651934488000114096 /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		5DB098671934488000114096 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DB098691934488000114096 /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		5DB098731934499700114096 /* CTUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTUserData.h; sourceTree = "<group>"; };
+		5DB098741934499700114096 /* CTUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTUserData.m; sourceTree = "<group>"; };
+		5DB0987619344B9200114096 /* monika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monika.jpg; sourceTree = "<group>"; };
+		5DB0987819344BCE00114096 /* sophie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sophie.jpg; sourceTree = "<group>"; };
+		5DB0987A19344BFA00114096 /* baba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baba.jpg; sourceTree = "<group>"; };
+		5DB0987C19344CD700114096 /* cyrus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cyrus.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +131,8 @@
 				5DB098501934488000114096 /* Main_iPad.storyboard */,
 				5DB098531934488000114096 /* CTViewController.h */,
 				5DB098541934488000114096 /* CTViewController.m */,
+				5DB098731934499700114096 /* CTUserData.h */,
+				5DB098741934499700114096 /* CTUserData.m */,
 				5DB098561934488000114096 /* Images.xcassets */,
 				5DB098421934488000114096 /* Supporting Files */,
 			);
@@ -129,6 +142,10 @@
 		5DB098421934488000114096 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5DB0987819344BCE00114096 /* sophie.jpg */,
+				5DB0987619344B9200114096 /* monika.jpg */,
+				5DB0987A19344BFA00114096 /* baba.jpg */,
+				5DB0987C19344CD700114096 /* cyrus.jpg */,
 				5DB098431934488000114096 /* User Data Challenge Solution-Info.plist */,
 				5DB098441934488000114096 /* InfoPlist.strings */,
 				5DB098471934488000114096 /* main.m */,
@@ -232,8 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB0987919344BCE00114096 /* sophie.jpg in Resources */,
 				5DB098521934488000114096 /* Main_iPad.storyboard in Resources */,
+				5DB0987B19344BFA00114096 /* baba.jpg in Resources */,
 				5DB098571934488000114096 /* Images.xcassets in Resources */,
+				5DB0987D19344CD700114096 /* cyrus.jpg in Resources */,
+				5DB0987719344B9200114096 /* monika.jpg in Resources */,
 				5DB0984F1934488000114096 /* Main_iPhone.storyboard in Resources */,
 				5DB098461934488000114096 /* InfoPlist.strings in Resources */,
 			);
@@ -257,6 +278,7 @@
 				5DB098481934488000114096 /* main.m in Sources */,
 				5DB0984C1934488000114096 /* CTAppDelegate.m in Sources */,
 				5DB098551934488000114096 /* CTViewController.m in Sources */,
+				5DB098751934499700114096 /* CTUserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +493,7 @@
 				5DB0986F1934488000114096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DB098701934488000114096 /* Build configuration list for PBXNativeTarget "User Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +502,7 @@
 				5DB098721934488000114096 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
